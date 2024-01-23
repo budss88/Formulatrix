@@ -4,7 +4,7 @@ A Repository manager is a library that can be used to store and retrieve JSON st
 # How to Run Test with FormulatrixUnitTest ( dotnet CLI )
 Open your terminal on your Mac or Command Prompt Windows;
 
-> git clone https://github.com/jeffriardian/Formulatrix.git
+> git clone https://github.com/buds99/Formulatrix.git
 
 > dotnet build Formulatrix.sln
 
@@ -16,9 +16,9 @@ Open your terminal on your Mac or Command Prompt Windows;
 
 [Theory]
 
-[InlineData("item1","{"to":"jeffriardian.kuningan@gmail.com","title":"Test Formulatrix","body":"Technical Test Formulatrix"}",1)]
+[InlineData("item1","{"to":"budhi.afrianto8@gmail.com","title":"Test OOP Formulatrix","body":"OOP Test Formulatrix"}",1)]
 
-[InlineData("item2", "Jeffri<title>Test Formulatrix</title>Technical Test Formulatrix", 2)]
+[InlineData("item2", "Budhi<title>Test OOP Formulatrix</title>OOP Test Formulatrix", 2)]
 
 ReturnTrue_GivenParameters_RegisteringJSONXML
 
